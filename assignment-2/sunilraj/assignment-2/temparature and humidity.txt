@@ -1,0 +1,17 @@
+import random
+t=random.randint(10,110)
+h=random.randint(10,120)
+if t>30 :
+        if h>30:
+            print("temparture is high and humidity is high")
+            print("alarm is on")
+        elif h<30:
+                print("temparture is high and humidity is low")
+                print("alarm is on")
+elif t<30 :
+        if h<30:
+            print("temparature is low and humidity is low")
+            print("Alarm is off")
+        if h>30:
+                print("temparature is low and humidity is high")
+                print("Alarm is off")

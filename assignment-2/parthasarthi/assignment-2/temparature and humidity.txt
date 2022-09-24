@@ -1,0 +1,7 @@
+a=random.randint(10,100)
+    b=random.randint(10,100)
+    if(a>45 and b>60):
+        print("High Temperature and humidity of:",a,b,"%","Alarm is ON")
+    elif(a<45 and b<60):
+        print("High Temperature and humidity of:", a, b, "%", "Alarm is OFF")
+        break
